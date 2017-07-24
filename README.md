@@ -2,6 +2,7 @@
 
 ### Find spaces outside double quotes
 
+**Regex expression**
 ```
 \s+(?=(?:[^"]*"[^"]*")*[^"]*$)
 ```
